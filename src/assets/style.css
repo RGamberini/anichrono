@@ -1,0 +1,50 @@
+html,
+body,
+#app,
+.full {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #141e24;
+  color: #d9dcc7;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+h1 {
+  font-size: 72px;
+  line-height: 1.25rem;
+  letter-spacing: 0.5rem;
+  text-shadow: 5px 3px 3px #6b6c63;
+  text-transform: uppercase;
+  -webkit-text-stroke: 0.0625rem;
+  text-align: center;
+}
+.play-button {
+  align-items: center;
+  border: 0.0625rem solid #d9dcc7;
+  border-radius: 1.5rem;
+  box-shadow: 0 0 0rem #d9dcc7;
+  box-sizing: border-box;
+  color: white;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  min-width: 16rem;
+  padding: 0.5rem;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 32px;
+  z-index: 500;
+}
+.play-button:hover {
+  box-shadow: 1px 1px 2px 3px #d9dcc7, -1px -1px 2px 3px #d9dcc7;
+}
+.play-button:active {
+  transform: scale(95%);
+}
